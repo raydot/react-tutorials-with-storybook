@@ -1,0 +1,38 @@
+{
+  "name": "react-tutorials-with-storybook",
+  "version": "1.0.0",
+  "description": "Dave's React Tutorials with Storybook project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raydot/react-tutorials-with-storybook.git"
+  },
+  "keywords": [
+    "react",
+    "storybook",
+    "tutorial"
+  ],
+  "author": "Dave Kanter",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/raydot/react-tutorials-with-storybook/issues"
+  },
+  "homepage": "https://github.com/raydot/react-tutorials-with-storybook#readme",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@storybook/addon-actions": "^5.1.1",
+    "@storybook/addon-links": "^5.1.1",
+    "@storybook/addons": "^5.1.1",
+    "@storybook/react": "^5.1.1",
+    "babel-loader": "^8.0.6"
+  }
+}
